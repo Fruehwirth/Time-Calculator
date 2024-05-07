@@ -2,7 +2,8 @@
 
 A simple yet effective time calculator built with HTML, CSS, and JavaScript. The calculator lets you easily perform time arithmetic with inputs in hours (`h`) and minutes (`m`). It also keeps track of your calculation history for quick reference.
 
-![Time Calculator Screenshot](./screenshot.png)
+![Time Calculator Screenshot Light Mode](./screenshots/lightmode-default.png)
+![Time Calculator Screenshot Dark Mode](./screenshots/darkmode-default.png)
 
 ## Features
 
@@ -23,7 +24,7 @@ Ensure you have a modern web browser like Chrome, Firefox, Edge, or Safari. The 
 1. **Download the Project:**
    - Clone the repository:
      ```bash
-     git clone https://github.com/your-username/time-calculator.git
+     git clone https://github.com/Fruehwirth/Time-Calculator
      ```
    - Or download the ZIP file and extract it.
 
