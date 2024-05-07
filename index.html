@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main id="calculator">
+        <input type="text" id="inputField" placeholder="Enter time calculations..." tabindex="-1" readonly>
+        <div class="keyboard">
+            <!-- First row -->
+            <button onclick="pressKey('1')" aria-label="Number 1" tabindex="-1" readonly>1</button>
+            <button onclick="pressKey('2')" aria-label="Number 2" tabindex="-1" readonly>2</button>
+            <button onclick="pressKey('3')" aria-label="Number 3" tabindex="-1" readonly>3</button>
+            <button onclick="pressKey(' + ')" aria-label="Addition" tabindex="-1" readonly>+</button>
+            <!-- Second row -->
+            <button onclick="pressKey('4')" aria-label="Number 4" tabindex="-1" readonly>4</button>
+            <button onclick="pressKey('5')" aria-label="Number 5" tabindex="-1" readonly>5</button>
+            <button onclick="pressKey('6')" aria-label="Number 6" tabindex="-1" readonly>6</button>
+            <button onclick="pressKey(' - ')" aria-label="Subtraction" tabindex="-1" readonly>-</button>
+            <!-- Third row -->
+            <button onclick="pressKey('7')" aria-label="Number 7" tabindex="-1" readonly>7</button>
+            <button onclick="pressKey('8')" aria-label="Number 8" tabindex="-1" readonly>8</button>
+            <button onclick="pressKey('9')" aria-label="Number 9" tabindex="-1" readonly>9</button>
+            <button onclick="calculate()" aria-label="Equals" tabindex="-1" readonly>=</button>
+            <!-- Fourth row -->
+            <button onclick="pressKey('h')" aria-label="Hours (h)" tabindex="-1" readonly>h</button>
+            <button onclick="pressKey('0')" aria-label="Number 0" tabindex="-1" readonly>0</button>
+            <button onclick="pressKey('m')" aria-label="Minutes (m)" tabindex="-1" readonly>m</button>
+            <button onclick="clearInput()" aria-label="Clear Input" tabindex="-1" readonly>C</button>
+        </div>
+        <div role="button" id="toggleHistory" class="toggle-label" tabindex="0" aria-pressed="false">Show History</div>
+        <div id="history" class="history-collapsed">
+            <!-- History entries will be dynamically added here -->
+        </div>
+    </main>
+    <!-- Import the main JavaScript file, which loads other modules -->
+    <script src="js/keyboard.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/history.js"></script>
+</body>
+</html>
