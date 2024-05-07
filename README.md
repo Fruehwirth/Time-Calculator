@@ -2,8 +2,11 @@
 
 A simple yet effective time calculator built with HTML, CSS, and JavaScript. The calculator lets you easily perform time arithmetic with inputs in hours (`h`) and minutes (`m`). It also keeps track of your calculation history for quick reference.
 
-![Time Calculator Screenshot Light Mode](./screenshots/lightmode-default.png)
-![Time Calculator Screenshot Dark Mode](./screenshots/darkmode-default.png)
+<p align="center">
+  <img src="./screenshots/lightmode-default.png" alt="Time Calculator Screenshot Light Mode" width="45%">
+  <img src="./screenshots/darkmode-default.png" alt="Time Calculator Screenshot Dark Mode" width="45%">
+</p>
+
 
 ## Features
 
