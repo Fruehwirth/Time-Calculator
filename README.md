@@ -12,7 +12,7 @@ A simple yet effective time calculator built with HTML, CSS, and JavaScript. The
 
 - **Time Arithmetic:** Add and subtract time values like "1h30m" and "45m."
 - **Responsive Design:** Looks great on different devices.
-- **History Tracking:** Review past calculations with a collapsible history panel.
+- **History Tracking:** Review past calculations and copy their results to the current input.
 - **Keyboard Support:** Use the keyboard or the on-screen buttons for input.
 - **Dark Mode:** Automatically adapts to the browser's color scheme preference.
 
@@ -47,7 +47,7 @@ Ensure you have a modern web browser like Chrome, Firefox, Edge, or Safari. The 
 - **Time Units:** `h` for hours, `m` for minutes
 - **Operators:** `+` and `-`
 - **Calculate:** `Enter` key
-- **Clear Input:** `C` button or `Escape` key
+- **Clear Input:** `Escape` key
 - **Backspace:** Remove the last character or operator
 
 ### Example Calculations
