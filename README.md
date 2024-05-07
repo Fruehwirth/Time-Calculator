@@ -1,3 +1,4 @@
+test
 # Time Calculator
 
 A simple yet effective time calculator built with HTML, CSS, and JavaScript. The calculator lets you easily perform time arithmetic with inputs in hours (`h`) and minutes (`m`). It also keeps track of your calculation history for quick reference.
